@@ -1,0 +1,4 @@
+{
+  "*.{ts,tsx,js,jsx}": "npx --no -- eslint",
+  "*": ["npx --no -- prettier --ignore-unknown --write", "git add"]
+}
